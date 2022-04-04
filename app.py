@@ -7,7 +7,7 @@ import time
 
 from utils import *
 
-st.beta_set_page_config(page_title='GlowGreen', page_icon = 'assets/images/logo.png')
+st.beta_set_page_config(page_title='GlowGreen', page_icon = 'assets/images/logo.jpeg')
 st.title("GlowGreen single shot inference")
 
 detector = load_model()
