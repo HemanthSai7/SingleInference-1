@@ -5,3 +5,4 @@ tflite_runtime
 numpy
 tensorflow
 openslide-python
+streamlit
