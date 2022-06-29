@@ -1,2 +1,2 @@
 openslide-tools
-python-openslide
+
