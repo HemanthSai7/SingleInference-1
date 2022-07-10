@@ -4,3 +4,5 @@ opencv_python_headless
 tflite_runtime
 numpy
 tensorflow
+openslide-python
+streamlit
