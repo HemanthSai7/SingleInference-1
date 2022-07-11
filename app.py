@@ -8,8 +8,8 @@ import time
 
 from utils import *
 
-
-st.title("Disease Detection")
+st.set_page_config(page_title='GlowGreen', page_icon = 'assets/images/logo.jpeg')
+st.title("GlowGreen single shot inference")
 
 detector = load_model()
 
