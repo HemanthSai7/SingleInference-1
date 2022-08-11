@@ -1,5 +1,4 @@
 tflite_support
-tensorflow_gpu
 opencv_python_headless
 tflite_runtime
 numpy
