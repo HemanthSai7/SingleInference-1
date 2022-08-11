@@ -7,7 +7,7 @@ import cv2
 import streamlit as st
 
 import tensorflow as tf
-from tflite_support import metadata
+from tflite_support import metadata as _metadata
 import tflite_runtime
 
 
@@ -92,7 +92,7 @@ class ObjectDetector:
     """
 
     # Load metadata from model.
-    displayer = metadata.MetadataDisplayer.with_model_file(model_path)
+    displayer = _metadata.MetadataDisplayer.with_model_file(model_path)
 
     # Save model metadata for preprocessing later.
     model_metadata = json.loads(displayer.get_metadata_json())
