@@ -1,3 +1,2 @@
 libgstreamer1.0.0
 libglu1
-libgit2
