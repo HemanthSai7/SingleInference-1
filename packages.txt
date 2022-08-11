@@ -1,1 +1,1 @@
-libgstreamer
+libgstreamer1
